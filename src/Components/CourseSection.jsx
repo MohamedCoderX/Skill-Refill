@@ -53,13 +53,13 @@ export default function CourseSection() {
                   className="h-44 w-full rounded-2xl  p-4 object-cover"
                 />
                 <div className="p-3 flex items-start flex-col flex-1">
-                  <h3 className="text-xl font-semibold ">
+                  <h3 className="text-2xl font-semibold ">
                     {course.title}
                   </h3>
-                  <p className="text-md text-gray-700 font-bold mt-1">{course.lessons}</p>
-                  <p className="text-gray-600 mt-1 text-sm">{course.desc}</p>
+                  <p className="text-md text-black-50 font-bold mt-1">{course.lessons}</p>
+                  <p className="text-black mt-1 text-sm">{course.desc}</p>
                   <div className="flex flex-col items-start gap-2 mt-1">
-                    <span className="text-md text-black-50">
+                    <span className="text-sm font-semibold text-black-50">
                       {course.students}
                     </span>
                     <button className="bg-blue border-2 border-gray-200 text-white text-md px-5 py-1.5 rounded-full shadow-md">
