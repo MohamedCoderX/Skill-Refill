@@ -1,5 +1,8 @@
 @import "tailwindcss";
 
+*{
+  font-family: "Poppins", sans-serif;
+}
 :root {
   --white: #FFFFFF;
   --black: #000000;
@@ -10,7 +13,10 @@
   --black-50: #5C5C5C;
   --blue-50: #6892D5;
 }
-
+.imageside{
+  aspect-ratio: 3/2;
+  object-fit: cover;
+}
 /* Background colors */
 .bg-white { background-color: var(--white); }
 .bg-black { background-color: var(--black); }
