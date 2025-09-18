@@ -57,7 +57,7 @@ export default function CourseSection() {
                     {course.title}
                   </h3>
                   <p className="text-md text-gray-700 font-bold mt-1">{course.lessons}</p>
-                  <p className="text-gray-600 mt-1 flex-1">{course.desc}</p>
+                  <p className="text-gray-600 mt-1 text-sm">{course.desc}</p>
                   <div className="flex flex-col items-start gap-2 mt-1">
                     <span className="text-md text-black-50">
                       {course.students}
