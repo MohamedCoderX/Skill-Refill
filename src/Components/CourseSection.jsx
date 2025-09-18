@@ -29,7 +29,7 @@ const courses = [
 
 export default function CourseSection() {
   return (
-    <section className="py-20 bg-gray-50">
+    <section className="py-20 ">
       <div className="max-w-6xl mx-auto px-4 text-center">
         <h2 className="text-5xl font-bold text-white-black">
           Available <span className="text-blue">Courses</span>
