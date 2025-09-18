@@ -42,10 +42,10 @@ export default function CourseSection() {
           {courses.map((course) => (
             <div
               key={course.title}
-              // Outer wrapper adds the gradient border
+             
               className="p-[6px] rounded-2xl bg-gradient-to-tl hover:shadow-2xl transition duration-300 from-[#6892D5] via-transparent to-[#6892D5]"
             >
-              {/* Inner card remains white */}
+        
               <div className="rounded-2xl overflow-hidden bg-white  transition duration-300 hover:shadow-2xl flex flex-col">
                 <img
                   src={course.img}
